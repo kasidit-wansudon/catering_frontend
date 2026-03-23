@@ -297,7 +297,7 @@ export default function ProcurementPage() {
                 <XAxis dataKey="supplier" />
                 <YAxis />
                 <Tooltip
-                  formatter={(value: number | string | undefined) =>
+                  formatter={(value: any) =>
                     `฿${Number(value ?? 0).toLocaleString()}`
                   }
                 />
